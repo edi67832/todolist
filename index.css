@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@200&family=Raleway:wght@100;300;500;600;700&display=swap');
+body{
+    background-color: wheat;
+    font-family:Raleway;
+    color:blue;
+    font-weight:500;
+}
+.titlu{
+    text-align: center;
+    font-size: 30px;
+    font-weight:100;
+}
+.casuta{
+    height:8vh;
+    width:50vw;
+    margin:auto;
+    color:darkcyan;
+    position:relative;
+}
+
+#text-casuta{
+    position:relative;
+    height:4vh;
+    width:50vw;
+    margin:auto;
+    font-size:150%;
+    font-style:150%;
+    font-family:Raleway;
+    color:rgb(126,168,190)
+}
+.text_taiat{
+    margin-left:100px;
+    margin-top:40px;
+    text-align:center;
+    font-size:250%;
+    font-family:Raleway;
+}
+.subsol{
+    /*i have childeren inside */
+    display: flex;
+    justify-content:space-between;
+    align-content:center;
+    font-family:Raleway;
+}
+.font{
+    font-size:30px;
+    border-color:transparent;
+    background-color:white;
+    color:gray;
+}
+.butoane, #elemente{
+    display:inline-block;
+}
